@@ -6,3 +6,29 @@ new v4
 
 >> It is distributed on cloud
 >> Collabaoration
+>> Tracking Changes
+>> Recovery
+
+https://git-scm.com/
+    GitHub
+    BitBucket
+    GitLab
+    GitPod
+
+>> For 1st time need to configure github in our system
+-- use below command
+git config --global user.name "shalukashyapofficial"
+git config --global user.email "shalukashyapofficial@gmail.com"
+
+-- optional command
+git config --global color.ui auto
+
+--Mandatory command
+-- git init
+-- git remote add origin https://github.com/shalukashyapofficial/tuteDudeAssignment.git
+-- git pull origin main
+-- git status
+-- git add GitAndGitHubCommand.txt [Add particular file]
+-- git add . [to Add all files]
+-- git commit -m "initial commit"
+-- git push --set-upstream origin master
